@@ -1,0 +1,17 @@
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "dfp_external_app"
+authors = [
+    { name = "FinByz" }
+]
+description = "External storage integration for Frappe"
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = ["version"]
+
+[tool.flit.module]
+name = "dfp_external_storage"

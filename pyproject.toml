@@ -8,6 +8,11 @@ name = "dfp_external_app"
 authors = [
     { name = "FinByz" }
 ]
+
+[tool.bench.frappe-dependencies]
+frappe = ">=16.0.0,<17.0.0"
+
+
 description = "External storage integration for Frappe"
 requires-python = ">=3.10"
 readme = "README.md"
